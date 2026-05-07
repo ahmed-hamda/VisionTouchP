@@ -362,7 +362,7 @@ static const String _baseUrl = 'http://<YOUR_PC_IP>:5000/api';
 
 ## 📄 Licence
 
-Ce projet est un travail académique. Consultez votre établissement pour les conditions d'utilisation.
+Ce projet est un travail académique.
 
 ---
 
