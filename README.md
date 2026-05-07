@@ -165,7 +165,7 @@ flutter devices
 
 **Exemple :**
 ```bash
-flutter run --device-id RFCX415QRTN
+flutter run --device-id xxxxxxxxxxxx
 ```
 
 ---
@@ -211,8 +211,15 @@ Les screenshots de l'application se trouvent dans le dossier `Capture/` :
 - **Realtime Screen** : Détection en temps réel via caméra
 - **Results Screen** : Affichage des objets détectés
 
-![Capture 1](./Capture/interface_1.png)
-![Capture 2](./Capture/interface_2.png)
+![Capture 1](./Capture/0.jpeg)
+![Capture 2](./Capture/1.jpeg)
+![Capture 3](./Capture/2.jpeg)
+![Capture 4](./Capture/3.jpeg)
+![Capture 5](./Capture/4.jpeg)
+![Capture 6](./Capture/5.jpeg)
+
+
+
 
 ---
 
@@ -341,36 +348,15 @@ static const String _baseUrl = 'http://<YOUR_PC_IP>:5000/api';
 
 ---
 
-## 🐛 Dépannage
-
-### Le backend ne charge pas le modèle YOLO
-**Solution :** Assurez-vous que `backend/model/best.pt` existe et que le chemin est correct.
-
-### L'app ne peut pas se connecter au backend
-**Solutions :**
-- Vérifiez que PC et téléphone sont sur le même réseau Wi-Fi
-- Remplacez `192.168.1.11` par votre IP locale (commande : `ipconfig`)
-- Vérifiez que le firewall n'ique pas le port 5000
-
-### Erreur Android NDK/SDK
-**Solution :** Exécutez `flutter doctor` et installez les SDK manquants.
-
----
-
-## 📝 Notes importantes
-
-- Le modèle YOLO est entraîné sur **30 classes** d'objets
-- La synthèse vocale (TTS) annnonce automatiquement les objets détectés
-- L'app supporte **Android 24+** (API Level 24)
-- Les images doivent être en JPG, PNG ou WebP
-
----
 
 ## 👨‍💼 Auteurs
 
-- **Ahmed Hamda** - Développeur principal
+- **Ahmed Hamda** 
+- **Yassine Dhuib** 
 - Projet : **VisionTouch**
 - Date : 2026
+
+
 
 ---
 
@@ -380,13 +366,4 @@ Ce projet est un travail académique. Consultez votre établissement pour les co
 
 ---
 
-## 🔗 Ressources utiles
 
-- [Flutter Docs](https://flutter.dev/docs)
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [YOLOv8 Guide](https://docs.ultralytics.com/)
-- [GetX Documentation](https://github.com/jonataslaw/getx/wiki)
-
----
-
-**Bon développement avec VisionTouch! 🚀👁️**
